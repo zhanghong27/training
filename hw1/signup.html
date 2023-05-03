@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./signup.css" />
+
+	<title>Sign Up</title>
+</head>
+<body>
+	<h1>Sign Up</h1>
+	<form>
+		<input type="text" placeholder="First Name" required>
+		<input type="text" placeholder="Last Name" name="last_name" required>
+		<input type="tel" placeholder="Mobile No." required>
+		<input type="email" placeholder="Email Address" required>
+		<input type="password" placeholder="Password" required>
+		<input type="password" placeholder="Confirm Password" name="confirm_password" required>
+    
+        <div class="row_agree">
+            <div class="checkbox">
+                <input type="checkbox" id="agree">
+                <label><b>I Agree</b></label>
+            </div>
+            <p>By clicking the <span id="registerSpan">Register</span> button, you agree to the <a href="randomlink.com">
+                Terms and Conditions</a> set out by this site, including our cookie use.</p>
+        </div>
+        <button type="submit" class="btn">Register</button>
+        <button type="submit" class="btn_green">Sign In</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+form {
+    background-color: #fff;
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+input[type="text"]{
+    width: 48%;
+    padding: 10px;
+    /* box-shadow: 0 0 10px rgba(149, 31, 33, 0.2); */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+input[name="last_name"]{
+    float: right;
+}
+
+input[type="email"], input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    /* box-shadow: 0 0 10px rgba(149, 31, 33, 0.2); */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="password"]{
+    width: 48%;
+    padding: 10px;
+    /* box-shadow: 0 0 10px rgba(149, 31, 33, 0.2); */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+input[name="confirm_password"]{
+    float: right;
+}
+
+span {
+    display: inline-block;
+    font-size: 10px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+    vertical-align: middle;
+    font-size: 14px;
+    margin: auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 90px;
+    background-color: skyblue;
+    color: #fff;
+    border-radius: 5px;
+    border-color: transparent;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.btn_green {
+    display: inline-block;
+    padding: 10px 90px;
+    background-color: rgb(88, 210, 88);
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    border-color: transparent;
+    margin-top: 10px;
+}
+
+#registerSpan {
+    font-size: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: skyblue;
+    width: 70x;
+    padding: 2px 4px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+}
+
+p {
+    display: inline-block;
+    font-size: 10px;
+}
+
+.row_agree a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+.row_agree {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+  }
+  
+.checkbox {
+    margin-right: 10px;
+}
+
+.checkbox label {
+    font-size: 14px;
+}
+
+.row_agree p {
+    font-size: 12px;
+    margin: 0;
+    display: inline-block;
+    word-wrap: break-word;
+    text-align: right;
+    flex: 3;
+}
